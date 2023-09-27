@@ -1,0 +1,330 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1em;
+  position: fixed;
+  top: -1em;
+  /* margin-left: 13em; */
+  padding-left: 13em;
+  padding-right: 4em;
+  background-color: #fff;
+  width: 100%;
+  box-shadow: 0 0 5px grey;
+}
+.navigation p,
+img,
+button {
+  cursor: pointer;
+}
+.navigation-one {
+  display: flex;
+  align-items: center;
+  gap: 1.5em;
+}
+.navigation-two {
+  display: flex;
+  align-items: center;
+  gap: 1.5em;
+}
+.hero {
+  /* background-color:red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 7em auto;
+  width: 80%;
+}
+#h1 {
+  font-size: 6rem;
+}
+#p {
+  font-size: 1.5rem;
+  color: grey;
+  margin: 1em 0;
+}
+.features {
+  display: flex;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  background: hsl(260, 8%, 14%);
+  color: white;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 3em;
+}
+.footer-icons {
+  display: flex;
+  width: 6vw;
+  height: 3vh;
+  gap: 2em;
+}
+.footer-h1 {
+  font-weight: bolder;
+}
+.nav-paragraph {
+  font-weight: bold;
+  color: grey;
+  /* font-size:1.5rem; */
+}
+button {
+  /* padding:1em 2em; */
+  padding: 1.5em;
+  margin: 1em 0;
+  border-radius: 50px;
+  border: none;
+  color: white;
+  background-color: hsl(180, 66%, 49%);
+}
+input {
+  padding: 1.5em;
+  width: 30vw;
+  outline: none;
+}
+.input-div {
+  padding: 1em 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+  /* margin: 2em 0; */
+  margin-top: -11em;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 5px;
+  background-image: url("../images/bg-shorten-desktop.svg");
+  background-color: hsl(257, 27%, 26%);
+}
+.input-div button {
+  padding: 1.5em;
+  margin: 1em 1em;
+  width: 6.6vw;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  background-color: hsl(180, 66%, 49%);
+}
+.stats {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 4em 0;
+}
+.stats-h1 {
+  font-size: 3rem;
+  margin-bottom: 0.4em;
+}
+.stats p {
+  color: grey;
+  font-size: 1.3rem;
+  margin-bottom: 2em;
+}
+.last-section {
+  background-color: #f2f3f5;
+  padding: 8em;
+}
+.cards {
+  /* background-color:white; */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  /* gap:;2em */
+}
+.cards h2 {
+  margin-bottom: 0.7em;
+}
+.card-one {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  background-color: white;
+  margin-top: -3em;
+  /* margin-right:1.5em; */
+  padding: 1.2em;
+  box-shadow: 0 0 5px grey;
+}
+
+.card-one-img {
+  margin-top: -3em;
+  margin-bottom: 1.7em;
+  background-color: hsl(257, 27%, 26%);
+  padding: 1em;
+  border-radius: 50%;
+  width: 3.4vw;
+}
+.green-div {
+  flex-grow: 1;
+  padding: 0.3em;
+  height: 3px;
+  width: 2.5vw;
+  background-color: hsl(180, 66%, 49%);
+  margin: 4em 0;
+}
+.green-div-two {
+  flex-grow: 1;
+  padding: 0.3em;
+  height: 3px;
+  width: 2.5vw;
+  background-color: hsl(180, 66%, 49%);
+  margin: 7em 0;
+}
+.card-two {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  background-color: white;
+  padding: 1.1em;
+  box-shadow: 0 0 5px grey;
+}
+.card-two-img {
+  margin-top: -3em;
+  margin-bottom: 1.7em;
+  background-color: hsl(257, 27%, 26%);
+  padding: 1em;
+  border-radius: 50%;
+  width: 3.4vw;
+}
+.card-three {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  background-color: white;
+  margin-top: 3em;
+  padding: 1.2em;
+  box-shadow: 0 0 5px grey;
+}
+.card-three-img {
+  margin-bottom: 1.7em;
+  margin-top: -3em;
+  background-color: hsl(257, 27%, 26%);
+  padding: 1em;
+  border-radius: 50%;
+  width: 3.4vw;
+}
+.boost {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 2em;
+  background-image: url("../images/bg-boost-desktop.svg");
+  background-color: hsl(257, 27%, 26%);
+  color: white;
+}
+.boost h1 {
+  font-weight: bolder;
+  font-size: 3rem;
+}
+.boost button {
+  font-size: 1.2rem;
+  padding: 1em;
+  width: 8vw;
+}
+.footer-paragraph {
+  margin: 0.8em;
+}
+
+/* Use a media query to add a breakpoint at 800px: */
+/* @media screen and (max-width: 800px) { */
+/* .left, .main, .right { */
+/* width: 100%;  */
+/* The width is 100%, when the viewport is 800px or smaller */
+/* } */
+
+@media only screen and (max-width: 1770px) {
+  #h1 {
+    font-size: 5.8rem;
+  }
+}
+@media only screen and (max-width: 1740px) {
+  #h1 {
+    font-size: 5.5rem;
+  }
+  #p {
+    font-size: 1.5rem;
+  }
+}
+@media only screen and (max-width: 1702px) {
+  #h1 {
+    font-size: 5.2rem;
+  }
+  #p {
+    font-size: 1.3rem;
+  }
+  .hero-two img {
+    width: 40vw;
+  }
+}
+@media only screen and (max-width: 1657px) {
+  #h1 {
+    font-size: 4.7rem;
+  }
+  #p {
+    font-size: 1.1rem;
+  }
+}
+@media only screen and (max-width: 1586px) {
+  #h1 {
+    font-size: 4rem;
+  }
+  #p {
+    font-size: 0.9rem;
+  }
+  .hero-two img {
+    width: 39vw;
+  }
+}
+@media only screen and (max-width: 1511px) {
+  #h1 {
+    font-size: 3rem;
+  }
+  #p {
+    font-size: 0.6rem;
+  }
+  .hero-one button {
+    padding: 1em;
+    margin: 1em 0;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    background-color: hsl(180, 66%, 49%);
+  }
+}
+@media only screen and (max-width: 1356px) {
+  #h1 {
+    font-size: 2rem;
+  }
+  .hero-two img {
+    width: 32vw;
+  }
+}
+@media only screen and (max-width: 1212px) {
+  #h1 {
+    font-size: 1rem;
+  }
+  #p {
+    font-size: 0.3rem;
+  }
+}
+@media only screen and (max-width: 1072px) {
+  #h1 {
+    font-size: 0.6rem;
+  }
+  #p {
+    font-size: 0.2rem;
+  }
+}

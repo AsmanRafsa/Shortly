@@ -1,0 +1,41 @@
+# Front-end Style Guide
+## Layout
+The designs were created to the following widths:
+- Mobile: 375px
+- Desktop: 1440px
+## Colors
+### Primary
+- Cyan: hsl(180, 66%, 49%)
+- Dark Violet: hsl(257, 27%, 26%)
+### Secondary
+- Red: hsl(0, 87%, 67%)
+### Neutral
+- Gray: hsl(0, 0%, 75%)
+- Grayish Violet: hsl(257, 7%, 63%)
+- Very Dark Blue: hsl(255, 11%, 22%)
+- Very Dark Violet: hsl(260, 8%, 14%)
+## Typography
+### Body Copy
+- Font size: 18px
+### Fonts
+- Family: [Poppins](https://fonts.google.com/specimen/Poppins)
+- Weights: 500, 700
+## Icons
+For the social icons, you can either use the SVGs provided or a font icon library. Some suggestions for font icon libraries can be found below:
+- [Font Awesome](https://fontawesome.com)
+- [IcoMoon](https://icomoon.io)
+- [Ionicons](https://ionicons.com)
+Google FontsGoogle Fonts
+Poppins - Google Fonts
+Geometric sans serif typefaces have been a popular design tool ever since these actors took to the world’s stage. Poppins is one of the new comers to this long (18 kB)
+https://fonts.google.com/specimen/Poppins
+
+Font AwesomeFont Awesome
+Font Awesome
+The internet's icon library + toolkit. Used by millions of designers, devs, & content creators. Open-source. Always free. Always awesome.
+icomoon.ioicomoon.io
+Icon Font & SVG Icon Sets ❍ IcoMoon
+IcoMoon provides a package of vector icons, along with a free HTML5 app for making custom icon fonts or SVG sprites. Browse among thousands of pixel perfect icons or import your own vectors.
+ionic.ioionic.io
+Ionicons: The premium icon pack for Ionic Framework
+Ionicons is an open-sourced and MIT licensed icon pack. (174 kB)
